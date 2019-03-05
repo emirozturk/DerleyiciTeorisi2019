@@ -1,0 +1,6 @@
+/Users/emirozturk/Desktop/DerleyiciTeorisi2019/DerleyiciTeorisi2019/obj/x86/Debug/DerleyiciTeorisi2019.csprojAssemblyReference.cache
+/Users/emirozturk/Desktop/DerleyiciTeorisi2019/DerleyiciTeorisi2019/obj/x86/Debug/DerleyiciTeorisi2019.csproj.CoreCompileInputs.cache
+/Users/emirozturk/Desktop/DerleyiciTeorisi2019/DerleyiciTeorisi2019/bin/Debug/DerleyiciTeorisi2019.exe
+/Users/emirozturk/Desktop/DerleyiciTeorisi2019/DerleyiciTeorisi2019/bin/Debug/DerleyiciTeorisi2019.pdb
+/Users/emirozturk/Desktop/DerleyiciTeorisi2019/DerleyiciTeorisi2019/obj/x86/Debug/DerleyiciTeorisi2019.exe
+/Users/emirozturk/Desktop/DerleyiciTeorisi2019/DerleyiciTeorisi2019/obj/x86/Debug/DerleyiciTeorisi2019.pdb

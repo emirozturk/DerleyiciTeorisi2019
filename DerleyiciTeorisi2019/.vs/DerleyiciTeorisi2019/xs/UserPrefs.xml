@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{2E58166E-2BDD-49E6-A821-C6718ECFA7E0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Ortak.cs" Line="55" Column="1" />
+      <File FileName="Program.cs" Line="16" Column="1" />
+      <File FileName="Lexer.cs" Line="51" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DerleyiciTeorisi2019" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/emirozturk/Desktop/DerleyiciTeorisi2019/DerleyiciTeorisi2019/Program.cs" relfile="Program.cs" line="13" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DerleyiciTeorisi2019 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
