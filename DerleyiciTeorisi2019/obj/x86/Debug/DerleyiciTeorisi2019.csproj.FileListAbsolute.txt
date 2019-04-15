@@ -4,3 +4,10 @@
 /Users/emirozturk/Desktop/DerleyiciTeorisi2019/DerleyiciTeorisi2019/bin/Debug/DerleyiciTeorisi2019.pdb
 /Users/emirozturk/Desktop/DerleyiciTeorisi2019/DerleyiciTeorisi2019/obj/x86/Debug/DerleyiciTeorisi2019.exe
 /Users/emirozturk/Desktop/DerleyiciTeorisi2019/DerleyiciTeorisi2019/obj/x86/Debug/DerleyiciTeorisi2019.pdb
+\\Mac\Home\Documents\GitHub\DerleyiciTeorisi2019\DerleyiciTeorisi2019\bin\Debug\DerleyiciTeorisi2019.exe.config
+\\Mac\Home\Documents\GitHub\DerleyiciTeorisi2019\DerleyiciTeorisi2019\bin\Debug\DerleyiciTeorisi2019.exe
+\\Mac\Home\Documents\GitHub\DerleyiciTeorisi2019\DerleyiciTeorisi2019\bin\Debug\DerleyiciTeorisi2019.pdb
+\\Mac\Home\Documents\GitHub\DerleyiciTeorisi2019\DerleyiciTeorisi2019\obj\x86\Debug\DerleyiciTeorisi2019.csprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\DerleyiciTeorisi2019\DerleyiciTeorisi2019\obj\x86\Debug\DerleyiciTeorisi2019.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\DerleyiciTeorisi2019\DerleyiciTeorisi2019\obj\x86\Debug\DerleyiciTeorisi2019.exe
+\\Mac\Home\Documents\GitHub\DerleyiciTeorisi2019\DerleyiciTeorisi2019\obj\x86\Debug\DerleyiciTeorisi2019.pdb

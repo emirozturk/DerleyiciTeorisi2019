@@ -12,7 +12,10 @@ namespace DerleyiciTeorisi2019
         Blok suAnkiBlok = null;
         Stack<Blok> blokStack = new Stack<Blok>();
         List<Durum> agac = new List<Durum>();
-        List<string> eklentiler = new List<string>();
+        public List<Durum> AgacAl()
+        {
+            return agac;
+        }
         public Parser(TokenListesi tl)
         {
             this.tl = tl;
@@ -24,9 +27,15 @@ namespace DerleyiciTeorisi2019
             while (true)
             {
                 Token t = tl.TokenAl();
-                if (t == null) break;
+                if (t == null || t.Tur == TokenTuru.Tanimsiz)
+                {
+                    agac.Add(suAnkiBlok);
+                    break;
+                }
                 if (t.Tur == TokenTuru.Fonk)
                 {
+                    if(suAnkiBlok!= null)               
+                         agac.Add(suAnkiBlok);
                     suAnkiBlok = fonksiyonParseEt();
                 }
                 else if (t.Tur == TokenTuru.Tanim)
@@ -52,7 +61,7 @@ namespace DerleyiciTeorisi2019
             string ad = tl.TokenAl().Deger;
             tl.IleriGit();
             List<Ifade> argumanlar = new List<Ifade>();
-            if (tl.Gozat().Tur == TokenTuru.ParantezKapat)
+            if (tl.Gozat().Tur != TokenTuru.ParantezKapat)
                 argumanlar = argumanParseEt();
             return new Cagirma(ad, argumanlar);
         }
@@ -60,15 +69,8 @@ namespace DerleyiciTeorisi2019
         private List<Ifade> argumanParseEt()
         {
             List<Ifade> argumanlar = new List<Ifade>();
-            while (true)
-            {
-                argumanlar.Add(ifadeParseEt());
-                if (tl.Gozat().Tur == TokenTuru.ParantezKapat)
-                {
-                    tl.IleriGit();
-                    break;
-                }
-            }
+            argumanlar.Add(ifadeParseEt());
+            tl.IleriGit();
             return argumanlar;
         }
 

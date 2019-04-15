@@ -55,8 +55,10 @@ namespace DerleyiciTeorisi2019
             do
             {
                 t = TokenAl();
-                tokenListesi.Add(t);
+                if(t.Tur != TokenTuru.Bosluk && t.Tur != TokenTuru.YeniSatir)
+                    tokenListesi.Add(t);
             } while (t.Tur != TokenTuru.Tanimsiz);
+            tokenListesi.Add(new Token(TokenTuru.Tanimsiz, ""));
             return new TokenListesi(tokenListesi);
         }
     }

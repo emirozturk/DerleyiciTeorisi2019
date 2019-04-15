@@ -2,7 +2,7 @@ Fonk main()
 a=3
 b=5
 d=a+b
-yazdir(d)
+ekranaYaz(d)
 
 Fonk ekranaYaz(sayi)
 yazdir(sayi)
